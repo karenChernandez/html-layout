@@ -1,0 +1,87 @@
+body{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    align-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.box1{
+    
+   border-style: solid;
+   border-width: 4px; 
+   height: 25vh ;
+   width: 80vw ;
+   display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+   
+	
+
+}
+.purple{
+    background-color:rgb(120, 10, 153) ;
+    width: 60px ;
+    height: 70%;
+    margin-left: 15px;
+    margin-top: 65px;
+    margin-right: 20px;
+}
+
+.green{
+    background-color: green;
+     margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 30px;
+    width: 40%;
+    height: 80% ;
+}
+.blue{
+    background-color: rgb(46, 158, 223);
+    margin: 40px;
+    height: 80% ;
+    width: 25%;
+    border-radius: 50%;
+    
+}
+
+
+
+.box2{
+   border-style: dotted;
+   border-width: 4px; 
+   height: 25vh ;
+   width: 80vw ; 
+   margin-bottom: 20px;
+   margin-top: 20px;
+   
+   
+}
+.box2-smallBox{
+    
+    background-color: khaki;
+    box-shadow: rgba(0, 0, 0, 0.596);
+    width: 75vw ;
+    height: 18vh;
+    margin-top: 40px;
+    margin-left: 25px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.404);
+    
+}
+.box3{
+    border:solid;
+    border-width: 2px;
+    border-color: gray;
+    height: 20vh ;
+    width: 45vw ;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    padding-top: 90px;
+    color: rgba(10, 10, 78, 0.774);
+    
+    
+}
